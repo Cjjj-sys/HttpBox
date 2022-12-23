@@ -20,8 +20,8 @@
         <Border x:Name="PostFormBorder">
             <StackPanel HorizontalAlignment="Stretch"
                         Orientation="Vertical">
-                <TextBlock Text="Http Post Form" />
-                <Grid Margin="0,10,0,0">
+                <TextBlock Margin="10,10,10,0" FontSize="36" Text="Http Post Form" />
+                <Grid Margin="10,10,10,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto" />
                         <ColumnDefinition />
@@ -30,7 +30,7 @@
                                Text="Url: " />
                     <ui:TextBox Grid.Column="1" />
                 </Grid>
-                <Grid Margin="0,10,0,0">
+                <Grid Margin="10,10,10,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto" />
                         <ColumnDefinition />
@@ -39,7 +39,7 @@
                                Text="Port: " />
                     <ui:TextBox Grid.Column="1" />
                 </Grid>
-                <Grid Margin="0,10,0,0">
+                <Grid Margin="10,10,10,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="auto" />
                         <ColumnDefinition />
